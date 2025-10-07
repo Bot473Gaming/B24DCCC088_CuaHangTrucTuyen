@@ -14,7 +14,7 @@ public class Main {
         System.out.println("\nThêm sản phẩm mới:");
         ElectronicProduct newPhone = new ElectronicProduct("EP003", "Điện thoại Xiaomi 13", 18000000, "Điện tử", "IMEI112233", 12);
         productCatalog.add(newPhone);
-        FoodProduct newFood = new FoodProduct("FP003", "Bánh quy", 15000, "Thực phẩm", LocalDate.of(2025, 9, 1));
+        FoodProduct newFood = new FoodProduct("FP003", "Bánh quy", 15000, "Thực phẩm", LocalDate.of(2025, 11, 7));
         productCatalog.add(newFood);
         System.out.println("Đã thêm sản phẩm mới vào danh mục.");
 
@@ -48,8 +48,8 @@ public class Main {
     private static void initializeProductCatalog() {
         productCatalog.add(new ElectronicProduct("EP001", "Laptop Dell XPS 15", 35000000, "Điện tử", "IMEI12345", 12));
         productCatalog.add(new ElectronicProduct("EP002", "Điện thoại Samsung S23", 25000000, "Điện tử", "IMEI67890", 6));
-        productCatalog.add(new FoodProduct("FP001", "Bánh mì tươi", 20000, "Thực phẩm", LocalDate.of(2025, 7, 15)));
-        productCatalog.add(new FoodProduct("FP002", "Sữa tươi Vinamilk", 30000, "Thực phẩm", LocalDate.of(2025, 7, 20)));
+        productCatalog.add(new FoodProduct("FP001", "Bánh mì tươi", 20000, "Thực phẩm", LocalDate.of(2025, 12, 15)));
+        productCatalog.add(new FoodProduct("FP002", "Sữa tươi Vinamilk", 30000, "Thực phẩm", LocalDate.of(2025, 11, 20)));
     }
 
     private static void displayProductCatalog() {
